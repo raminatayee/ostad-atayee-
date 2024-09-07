@@ -35,6 +35,17 @@
       "Lucida Sans", Arial, sans-serif;
   }
 }
+@media only screen and (min-width: 1443px) {
+  .Welcome {
+    display: block;
+    font-size: 150px;
+    top: 60px;
+    left: 350px;
+    color: yellow;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
 
 .imgostad {
   padding-top: 30px;
