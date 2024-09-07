@@ -5,11 +5,37 @@
 .Welcome {
   position: absolute;
   font-size: 40px;
-  top: 200px;
-  left: 280px;
+  top: 30px;
+  left: 120px;
   color: yellow;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
+
+@media only screen and (min-width: 768px) {
+  .Welcome {
+    display: block;
+    font-size: 100px;
+    top: 80px;
+    left: 220px;
+    color: yellow;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
+
+@media only screen and (min-width: 834px) {
+  .Welcome {
+    display: block;
+    font-size: 120px;
+    top: 60px;
+    left: 330px;
+    color: yellow;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
+
 .imgostad {
   padding-top: 30px;
 }
@@ -51,4 +77,6 @@ h6 {
   margin: 20px;
 }
 
-
+.box1:hover {
+  cursor: pointer;
+}
