@@ -12,14 +12,14 @@ body {
 .Welcome {
   position: absolute;
   font-size: 40px;
-  top: 250px;
+  top: 25px;
   left: 90px;
   color: yellow;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 787px) {
   .Welcome {
     display: block;
     font-size: 30px;
@@ -39,7 +39,7 @@ body {
   .Welcome {
     display: block;
     font-size: 100px;
-    top: 160px;
+    top: 60px;
     left: 330px;
     color: yellow;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -97,7 +97,7 @@ body {
   color: rgb(33, 1, 54);
 }
 .h1 {
-  padding-top: 110px;
+  padding-top: 80px;
 }
 .span {
   font-size: 20px;
