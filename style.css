@@ -8,6 +8,12 @@ body {
     margin: 0;
     padding: 0;
   }
+  .imghome {
+    padding-top: 20px;
+  }
+  .h1 {
+    padding-top: 80px;
+  }
 }
 
 .logo {
